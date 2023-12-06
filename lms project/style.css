@@ -142,8 +142,8 @@ section{
     width: 100%;
 
 }
-#abc{
-    text-color: #22100d;
+#abcd{
+    color: #22100d;
 }
 header.sticky{
     background: var(--bg-color);
