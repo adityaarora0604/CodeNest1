@@ -142,6 +142,9 @@ section{
     width: 100%;
 
 }
+#abc{
+    text-color: #22100d;
+}
 header.sticky{
     background: var(--bg-color);
     padding: 12px 13%;
