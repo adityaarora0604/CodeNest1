@@ -41,6 +41,16 @@
     <!-- starting home section -->
     <section class="home" id="home">
         <div class="home-text">
+            <script>
+            // JavaScript to retrieve and use the saved username
+            const savedUsername = localStorage.getItem("username");
+    
+            if (savedUsername) {
+                document.write(`<h1 id="abcd">Welcome, ${savedUsername}!</h1>`);
+            } else {
+                document.write("<h1>Welcome!</h1>");
+            }
+        </script>
             <h6>Best online learning platform</h6>
             <h1>Accessible Online Courses For All</h1>
             <p>Get your future bright with learning new skill online</p>
