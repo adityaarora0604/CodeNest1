@@ -21,7 +21,14 @@
 
 
             <input type="text" id="username" name="username" required>
-
+        <script>
+    // Javascript to handle form submission
+    document.getElementById("username").addEventListener("submit", function(e) {
+        e.preventDefault(); // Prevent the form from actually submitting
+        const username = document.getElementById("username").value;
+        localStorage.setItem("username", username);
+    });
+</script>
 
             <br>
 
